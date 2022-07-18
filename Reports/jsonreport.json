@@ -1,0 +1,191 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-16T02:27:43.939Z",
+        "line": 3,
+        "name": "Login Functionality",
+        "description": "",
+        "id": "automation-excersise-practice;login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19963435400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User launch the Browser",
+            "match": {
+              "location": "com.stepdefenition.StepDefnAdac.user_launch_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1132926800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter the Userame in User Name field",
+            "match": {
+              "location": "com.stepdefenition.StepDefnAdac.user_enter_the_userame_in_user_name_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 393973400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter Password in Password field",
+            "match": {
+              "location": "com.stepdefenition.StepDefnAdac.user_enter_password_in_password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1902379600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is enter the Login button",
+            "match": {
+              "location": "com.stepdefenition.StepDefnAdac.user_is_enter_the_login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-07-16T02:28:07.882Z",
+        "line": 9,
+        "name": "Search Hotel first page",
+        "description": "",
+        "id": "automation-excersise-practice;search-hotel-first-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 433973500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User chooses the Location",
+            "match": {
+              "location": "com.stepdefenition.StepDefnAdac.user_chooses_the_location()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 500965800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User choose the Hotel",
+            "match": {
+              "location": "com.stepdefenition.StepDefnAdac.user_choose_the_hotel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 395982600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User choose Room Type",
+            "match": {
+              "location": "com.stepdefenition.StepDefnAdac.user_choose_room_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 219978400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User choose No of Rooms",
+            "match": {
+              "location": "com.stepdefenition.StepDefnAdac.user_choose_no_of_rooms()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1056935700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enter check in date",
+            "match": {
+              "location": "com.stepdefenition.StepDefnAdac.user_enter_check_in_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1045935000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enter check out date",
+            "match": {
+              "location": "com.stepdefenition.StepDefnAdac.user_enter_check_out_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 648960900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User mentions no of Adults in room",
+            "match": {
+              "location": "com.stepdefenition.StepDefnAdac.user_mentions_no_of_adults_in_room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 579962000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User mentions no fo child in room",
+            "match": {
+              "location": "com.stepdefenition.StepDefnAdac.user_mentions_no_fo_child_in_room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1407462400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User is enter the Submit button",
+            "match": {
+              "location": "com.stepdefenition.StepDefnAdac.user_is_enter_the_submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Automation Excersise Practice",
+    "description": "",
+    "id": "automation-excersise-practice",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Cucumber_FeatureFiles/Login.feature",
+    "tags": []
+  }
+]
